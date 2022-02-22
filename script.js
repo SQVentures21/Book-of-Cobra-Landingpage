@@ -65,13 +65,13 @@ function getValue(value, randomNr, nr, i) {
     case 2:
       nr = randomNr;
       setTimeout(function () {
-        modal3.style.display = "block";
-        // video1.play();
+        modal1.style.display = "block";
+        video1.play();
       }, 5500);
 
-      // setTimeout(function () {
-      //   modal3.style.display = "none";
-      // }, 10500);
+      setTimeout(function () {
+        modal1.style.display = "none";
+      }, 10500);
 
       break;
 
