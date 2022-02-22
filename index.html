@@ -10,7 +10,7 @@
   </head>
 
   <body>
-   <audio
+    <audio
       id="my_audio"
       src="./img1/audio/LANDING PAGE SOUND.mp3"
       loop="loop"
@@ -63,13 +63,25 @@
           </div>
         </div>
 
-        <div id="myModal3" class="modal">
+        <div id="myModal3" class="modal-1">
           <!-- Modal content -->
-          <div class="modal-content">
+          <div class="modal-content-2">
             <p>
-              Congratulations! You've won €15. Join Now using the code: LUCKY15
-              and make a minimum €15 deposit to unlock your reward. Good Luck!
+              <span class="space">Congratulations! </span> <br />
+              You've won <span class="color">€15</span> <br />
+              Join Now using the code: <span class="yellow">LUCKY15</span>
+              <br />
+              and make a minimum €15 deposit to unlock your reward.
+              <br />
+              <span class="luck">Good Luck!</span>
             </p>
+            <a href="">
+              <img
+                class="modal-button"
+                src="./img1/button-grab-your-bonus.svg"
+                alt=""
+              />
+            </a>
           </div>
         </div>
       </div>
@@ -110,8 +122,6 @@
       window.onload = function () {
         document.getElementById("my_audio").play();
       };
-      
-      
     </script>
     <script src="script.js"></script>
   </body>
