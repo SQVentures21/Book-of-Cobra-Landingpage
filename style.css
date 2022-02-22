@@ -427,20 +427,18 @@ video {
 /* button play style */
 
 .audios {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  position: absolute;
+  top: 850px;
+  right: -40px;
 }
 
 .image-off {
   display: none;
-  width: 100px;
+  width: 80px;
 }
 
 .image-on {
-  width: 100px;
+  width: 80px;
 }
 
 .space {
