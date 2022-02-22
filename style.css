@@ -10,7 +10,7 @@ body {
 }
 
 #stage {
-  margin-top: 11vh !important;
+  margin-top: 50px !important;
   margin-inline: auto;
   width: 946px;
   padding: 0 0 40px;
@@ -266,10 +266,37 @@ label {
   z-index: 3;
 }
 
+.modal-1 {
+  display: none; /* Hidden by default */
+  position: absolute; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 198px;
+  top: 116px;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  z-index: 3;
+}
+
+.modal-1 p {
+  padding-top: 359px;
+  color: white;
+  width: 370px;
+  padding-left: 98px;
+  font-family: "Roboto";
+  font-size: 22px;
+}
+
 /* Modal Content/Box */
 
 .modal-content {
   width: 100%; /* Could be more or less, depending on screen size */
+}
+
+.modal-content-2 {
+  width: 100%; /* Could be more or less, depending on screen size */
+  background-image: url("./img1/popup.png");
+  background-repeat: no-repeat;
+  height: 100%;
 }
 
 #credit {
@@ -416,7 +443,38 @@ video {
   width: 100px;
 }
 
+.space {
+  margin-bottom: 5px;
+  line-height: 70px;
+  font-size: 30px;
+}
 
+.color {
+  color: #3fffff;
+  font-weight: bold;
+}
+
+.yellow {
+  color: yellow;
+  font-weight: bold;
+}
+
+.luck {
+  line-height: 70px;
+}
+
+.modal-button {
+  margin-left: -380px;
+  margin-top: -23px;
+  width: 25%;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 2000px) {
+  body {
+    overflow: hidden;
+  }
+}
 
 @media screen and (min-width: 1166px) {
   #stage {
