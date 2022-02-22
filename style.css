@@ -416,11 +416,7 @@ video {
   width: 100px;
 }
 
-@media screen and (min-width: 2000px) {
-  body {
-    overflow: hidden;
-  }
-}
+
 
 @media screen and (min-width: 1166px) {
   #stage {
