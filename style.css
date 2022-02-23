@@ -31,6 +31,7 @@ body {
   transform-style: preserve-3d;
   max-width: 100vw;
   z-index: 1;
+   position: relative;
 }
 
 .img {
@@ -48,6 +49,7 @@ body {
   margin-right: 10px;
   transform-style: preserve-3d;
   z-index: 1 !important;
+    position: relative;
 }
 
 .slot {
