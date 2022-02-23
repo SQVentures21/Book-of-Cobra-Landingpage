@@ -58,7 +58,7 @@ function getValue(value, randomNr, nr, i) {
 
         setTimeout(function () {
           modal2.style.display = "none";
-        }, 10500);
+        }, 12500);
       }
 
       break;
@@ -71,7 +71,7 @@ function getValue(value, randomNr, nr, i) {
 
       setTimeout(function () {
         modal1.style.display = "none";
-      }, 10500);
+      }, 12500);
 
       break;
 
