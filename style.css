@@ -34,6 +34,7 @@ body {
   top: 7px;
   left: -65px;
   width: 1086px;
+  z-index: 3;
 }
 .ring {
   margin: 0 auto;
@@ -263,7 +264,7 @@ label {
   top: 5px;
   width: 120%; /* Full width */
   height: 100%; /* Full height */
-  z-index: 3;
+  z-index: 9999;
 }
 
 .modal-1 {
@@ -307,6 +308,7 @@ label {
   left: 719px;
   font-family: "Roboto";
   font-weight: 700;
+  z-index: 3;
 }
 
 #spinRemain {
@@ -317,6 +319,7 @@ label {
   left: 66px;
   font-family: "Roboto";
   font-weight: 700;
+  z-index: 3;
 }
 
 .go {
@@ -344,6 +347,7 @@ label {
   display: inline-block;
   transition: all 0.2ss ease;
   border-radius: 50%;
+  z-index: 3;
 }
 
 .test-shine:after {
@@ -432,12 +436,20 @@ video {
   right: -40px;
 }
 
-.image-off {
+.audios-1 {
+  position: absolute;
+  top: 850px;
+  left: -38px;
+}
+
+.image-off,
+.music-off {
   display: none;
   width: 80px;
 }
 
-.image-on {
+.image-on,
+.music-on {
   width: 80px;
 }
 
@@ -518,6 +530,8 @@ video {
     width: 90%;
   }
 
+  .music-off,
+  .music-on,
   .image-off,
   .image-on {
     transform: scale(0.8);
