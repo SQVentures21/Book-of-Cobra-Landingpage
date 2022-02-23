@@ -1,7 +1,7 @@
 const SLOTS_PER_REEL = 12;
 // radius = Math.round( ( panelWidth / 2) / Math.tan( Math.PI / SLOTS_PER_REEL ) );
 // current settings give a value of 149, rounded to 150
-const REEL_RADIUS = 265;
+const REEL_RADIUS = 280;
 
 const timer = 4;
 
