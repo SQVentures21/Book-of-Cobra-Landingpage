@@ -12,13 +12,15 @@ body {
 #stage {
   margin-top: 50px !important;
   margin-inline: auto;
-  width: 946px;
+  width: 961px;
   padding: 0 0 40px;
   text-align: center;
   position: relative;
   background: 10px 175px url("./img1//Slots-background\ \(3\).png") no-repeat;
   max-width: 100vw;
   z-index: 1;
+    display: flex;
+  flex-wrap: wrap;
 }
 
 #rotate {
